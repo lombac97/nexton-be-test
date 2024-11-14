@@ -85,7 +85,6 @@ function performOperation(stack, operator, value) {
             stack[stack.length - 1] *= value;
             break;
         case '/':
-            case '/':
                 if (value === 0) {
                     throw new Error("Division by zero is not allowed");
                 }
