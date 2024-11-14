@@ -33,6 +33,10 @@ This project is a basic Calculator API built with Node.js and Express. It evalua
    ```bash
    node src/index.js
    ```
+   alternatively you can run:
+   ```bash
+   npm start
+   ```
 2. The server will start on the default port `3000`. You should see a message in the console:
    ```
    Server is running on http://localhost:3000

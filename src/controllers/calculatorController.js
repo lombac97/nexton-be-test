@@ -1,7 +1,9 @@
 import calculatorService from '../services/calculatorService.js';
 
 export const calculate = (req, res) => {
-    const { expression } = req.body;
+    console.log('Controller: calculateController | function: calculate | payload:', JSON.stringify(req.body))
+
+    const { expression } = req.body;    
     try {
         const result = calculatorService.evaluate(expression);
         res.json({ result });

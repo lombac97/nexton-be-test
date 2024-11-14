@@ -7,6 +7,7 @@ function validateOperator(character) {
 }
 
 function evaluate(expression) {
+    console.log('Service: calculatorService | function: evaluate | payload:', JSON.stringify(expression))
 
     expression = expression.replace(SPACE_REGEX, '');
     
